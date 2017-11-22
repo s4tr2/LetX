@@ -1,0 +1,87 @@
+body{
+	background: #EEEEEE;
+	font-family: 'Rubik', sans-serif;
+}
+#img-round{
+	border-radius: 50%;
+	width: 30px;
+	height: 28px;
+}
+#img-rect{
+	width: 31.2px;
+	height: 50px;
+}
+#widget2-text{
+	margin-top: 0px;
+}
+.book-card{
+	background-color: #fff;
+	color: #34495e;
+	border: 2px solid #F2F1EF;
+	width: 100%;
+	height: 50%;
+}
+#img-mainBooks{
+	position: relative;
+	margin-top: -10px;
+	width: 121px;
+	height: 180px;
+}
+#star-reviews{
+	width: 80px;
+	height: 16.3px;
+}
+.navigation ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.navigation ul li{
+	display: inline;
+	float: right;
+}
+.navigation ul li a{
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	color: #34495e;
+}
+.navigation ul li a:hover{
+	border-bottom: 2px solid #3498db;
+	color: #2c3e50;
+}
+#nav-headText{
+	float: left;
+}
+/*Divider White */
+.divider-white{
+	border: 0.5px solid #000;
+}
+/*Carousel */
+#carousel-div{
+	background: #F1A9A0;
+	width: 100%;
+	height: 320px;
+	color: #fff;
+}
+.carousel-image{
+	margin-top: 10px;
+	margin-left: 25%;
+	width: 161px;
+	height: 270px;
+}
+.container-custom{
+	background: #F1A9A0;
+}
+.btn-custom{
+	background-color: #fff;
+	border: 5px solid #fff;
+	border-radius: 15px;
+	box-shadow: 2px 2px 5px 1px #000;
+	color: #000;
+	outline: none;
+}
+.btn-custom: hover{
+	box-shadow: 3px 3px 6px 2px #000;
+}
+
