@@ -9,107 +9,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick-master/slick/slick-theme.css">
     <script src="scripts/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
     <!-- Carousel Starts -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="container-custom">
-            <div class="container">
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <!-- Custom Code -->
-                        <div id="carousel-div">
-                            <div class="row">
-                                <div class="col-md-3 col-xs-4 col-sm-4">
-                                    <img src="img/actlikeit.jpg" class="carousel-image img-responsive">
-                                </div>
-                                <div class="col-md-4 col-xs-8 col-sm-6">
-                                    <div class="container-fluid">
-                                        <h3 id="book-title">Act Like It</h3>
-                                        <h4 id="book-author">By Lucy Parker</h4>
-                                        <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
-                                        <h4 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</h4>
-                                        <input type="button" class="btn-custom" value="See the book">
-                                        <a href="#"></a>
-                                        </input>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Custom Code Ends-->
-                    </div>
-
-                    <div class="item">
-                        <!-- Custom Code -->
-                        <div id="carousel-div">
-                            <div class="row">
-                                <div class="col-md-3 col-xs-4 col-sm-4">
-                                    <img src="img/actlikeit.jpg" class="carousel-image img-responsive">
-                                </div>
-                                <div class="col-md-4 col-xs-8 col-sm-6">
-                                    <div class="container-fluid">
-                                        <h3 id="book-title">Act Like It</h3>
-                                        <h4 id="book-author">By Lucy Parker</h4>
-                                        <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
-                                        <h4 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</h4>
-                                        <input type="button" class="btn-custom" value="See the book">
-                                        <a href="#"></a>
-                                        </input>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Custom Code Ends-->
-                    </div>
-
-                    <div class="item">
-                        <!-- Custom Code -->
-                        <div id="carousel-div">
-                            <div class="row">
-                                <div class="col-md-3 col-xs-4 col-sm-4">
-                                    <img src="img/actlikeit.jpg" class="carousel-image img-responsive">
-                                </div>
-                                <div class="col-md-4 col-xs-8 col-sm-6">
-                                    <div class="container-fluid">
-                                        <h3 id="book-title">Act Like It</h3>
-                                        <h4 id="book-author">By Lucy Parker</h4>
-                                        <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
-                                        <h4 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</h4>
-                                        <input type="button" class="btn-custom" value="See the book">
-                                        <a href="#"></a>
-                                        </input>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Custom Code Ends-->
-                    </div>
-                </div>
-            </div>
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev" onclick="colorGen()">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next" onclick="colorGen()">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
+  <section class="center slider">
+     <div id="theContainer">
+     </div>
+  </section>
+    <br />
     <br />
     <!-- Carousel Ends -->
     <div class="container-fluid">
@@ -117,59 +30,59 @@
             <div class="col-md-2 col-sm-12 col-xs-12">
                 <!-- Side-Widget1 starts -->
                 <div class="side-widget1">
-                    <h4>Author of the week</h4>
+                    <h4 style="color: #4B5660;">Author of the week</h4>
 
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-4">
-                            <img src="img/author.jpg" id="img-round" />
+                            <img src="img/author.jpg" id="img-round" class="img-author" />
                         </div>
-                        <div class="col-md-8 col-sm-6 col-xs-6">
+                        <div class="col-md-9 col-sm-6 col-xs-6">
                             <h6>Sebastian Jeremy</h6>
+                        </div>
+                    </div>            
+
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-4">
+                            <img src="img/author.jpg" id="img-round" class="img-author"/>
+                        </div>
+                        <div class="col-md-9 col-sm-6 col-xs-6">
+                            <h6>Jonathan Doe</h6>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-4">
-                            <img src="img/author.jpg" id="img-round" />
+                            <img src="img/author.jpg" id="img-round" class="img-author"/>
                         </div>
-                        <div class="col-md-8 col-sm-6 col-xs-6">
-                            <h6>Sebastian Jeremy</h6>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-xs-4">
-                            <img src="img/author.jpg" id="img-round" />
-                        </div>
-                        <div class="col-md-8 col-sm-6 col-xs-6">
-                            <h6>Sebastian Jeremy</h6>
+                        <div class="col-md-9 col-sm-6 col-xs-6">
+                            <h6>Angeline Summer</h6>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-4">
-                            <img src="img/author.jpg" id="img-round" />
+                            <img src="img/author.jpg" id="img-round" class="img-author"/>
                         </div>
-                        <div class="col-md-8 col-sm-6 col-xs-6">
-                            <h6>Sebastian Jeremy</h6>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-xs-4">
-                            <img src="img/author.jpg" id="img-round" />
-                        </div>
-                        <div class="col-md-8 col-sm-6 col-xs-6">
-                            <h6>Sebastian Jeremy</h6>
+                        <div class="col-md-9 col-sm-6 col-xs-6">
+                            <h6>Noah Jones</h6>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-4">
-                            <img src="img/author.jpg" id="img-round" />
+                            <img src="img/author.jpg" id="img-round" class="img-author"/>
                         </div>
-                        <div class="col-md-8 col-sm-6 col-xs-6">
-                            <h6>Sebastian Jeremy</h6>
+                        <div class="col-md-9 col-sm-6 col-xs-6">
+                            <h6>Tommy Adam</h6>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-4">
+                            <img src="img/author.jpg" id="img-round" class="img-author"/>
+                        </div>
+                        <div class="col-md-9 col-sm-6 col-xs-6">
+                            <h6>Ian Cassandra</h6>
                         </div>
                     </div>
                     <br />
@@ -180,43 +93,56 @@
                 <!-- Side-widget2 Starts -->
 
                 <div class="side-widget2">
-                    <h4>Books of the year</h4>
+                    <h4 style="color: #4B5660;">Books of the year</h4>
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-4">
-                            <img src="img/darkmurder.jpg" id="img-rect" />
+                            <img src="img/thepaintersdaughter.jpg" id="img-rect" />
                         </div>
-                        <div class="col-md-8 col-sm-6 col-xs-6">
-                            <h6 id="widget2-text">Big Magic: Creating living beyond fear<br /><br />
-                                        By Elizabeth Gilbert</h6>
+                        <div class="col-md-9 col-sm-6 col-xs-6">
+                            <h6 id="widget2-text">Big Magic: Creating living beyond fear<br /><br /><br />
+                                        <span style="color: #8F9FAB;">By Elizabeth Gilbert</span></h6>
                             <br />
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-4">
-                            <img src="img/darkmurder.jpg" id="img-rect" />
+                            <img src="img/bigmagic.jpg" id="img-rect" />
                         </div>
-                        <div class="col-md-8 col-sm-6 col-xs-6">
-                            <h6 id="widget2-text">Big Magic: Creating living beyond fear<br /><br />
-                                        By Elizabeth Gilbert</h6>
+                        <div class="col-md-9 col-sm-6 col-xs-6">
+                            <h6 id="widget2-text">Big Magic: Creating living beyond fear<br /><br /><br />
+                                       <span style="color: #8F9FAB;">By Elizabeth Gilbert</span></h6>
                             <br />
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-4">
-                            <img src="img/darkmurder.jpg" id="img-rect" />
+                            <img src="img/aloneon.jpg" id="img-rect" />
                         </div>
-                        <div class="col-md-8 col-sm-6 col-xs-6">
-                            <h6 id="widget2-text">Big Magic: Creating living beyond fear<br /><br />
-                                        By Elizabeth Gilbert</h6>
+                        <div class="col-md-9 col-sm-6 col-xs-6">
+                            <h6 id="widget2-text">Big Magic: Creating living beyond fear<br /><br /><br />
+                                        <span style="color: #8F9FAB;">By Elizabeth Gilbert</span></h6>
                             <br />
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-4">
-                            <img src="img/darkmurder.jpg" id="img-rect" />
+                            <img src="img/alexferguson.jpg" id="img-rect" />
+                        </div>
+                        <div class="col-md-9 col-sm-6 col-xs-6">
+                            <h6 id="widget2-text">Big Magic: Creating living beyond fear<br /><br /><br />
+                                        <span style="color: #8F9FAB;">By Elizabeth Gilbert</span></h6>
+                            <br />
+                        </div>
+                    </div>
+                </div>
+
+<!--
+                <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-4">
+                            <img src="img/fourdays.jpg" id="img-rect" />
                         </div>
                         <div class="col-md-8 col-sm-6 col-xs-6">
                             <h6 id="widget2-text">Big Magic: Creating living beyond fear<br /><br />
@@ -225,7 +151,7 @@
                         </div>
                     </div>
                 </div>
-
+-->
                 <!-- Side-widget2 Ends -->
 
             </div>
@@ -239,27 +165,32 @@
                     <!-- Container-fluid-wrapper #main -->
                     <div class="second-header">
                         <div class="row">
-                            <div class="col-md-2 col-sm-12 col-xs-12">
+                            <div class="col-md-3 col-sm-12 col-xs-12">
                                 <div id="nav-headText">
-                                    <h4>Popular by Genre</h4>
+                                    <h4 style="color: #4B5660;">Popular by Genre</h4>  
                                 </div>
                             </div>
-                            <div class="col-md-10 col-sm-12 col-xs-12">
+                            <div class="col-md-9 col-sm-12 col-xs-12 nav1">
                                 <div class="navigation">
                                     <ul>
 
-                                        <li><a href="#" onclick="trans()" id="Biography">Biography</a></li>
+                                        <li><a href="#" id="Biography">Biography</a></li>
+                                        
 
                                         <li><a href="#">Philosophy</a></li>
+                                       
 
                                         <li><a href="#">Fiction</a></li>
+                                        
 
                                         <li><a href="#">Science</a></li>
+                                        
 
                                         <li><a href="#">Business</a></li>
+                                       
 
                                         <li><a href="#">All Genres</a></li>
-
+                                        
                                     </ul>
                                 </div>
                             </div>
@@ -267,6 +198,8 @@
                     </div>
                     <hr class="divider-white" />
                     <br />
+                    <br />
+
                     <!-- Navigation Bar Ends -->
 
                     <!-- Main Book Content Starts -->
@@ -282,24 +215,25 @@
                                         <div class="col-md-5 col-sm-4 col-xs-6">
                                             <img src="img/actlikeit.jpg" id="img-mainBooks" class="img-responsive" />
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="img/dots.png" id="menu-icon" />
+                                        <div class="col-md-7 col-sm-6 col-xs-6 book-details">
                                             <h4 id="book-title">Act Like It</h4>
-                                            <h5 id="book-author">By Lucy Parker</h5>
-                                            <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
+                                            <h5 id="book-author">by Lucy Parker</h5>
+                                            <p><img src="img/star.png" id="star-reviews" /></p><p id="vote-count">&nbsp;&nbsp;1,987,765 voters</p>
                                             <h5 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</h5>
                                         </div>
                                     </div>
                                     <hr />
                                     <!-- Like Widget -->
                                     <div class="row">
-                                        <div class="col-md-3 col-sm-4 col-xs-6">
+                                        <div class="col-md-4 col-sm-4 col-xs-6">
                                             <img src="img/author.jpg" id="img-round" />
-                                            <span>
-                                                        <img src="img/author.jpg" id="img-round" />
-                                                    </span>
+                                            <img src="img/author.jpg" id="img-round" />
+                                            <img src="img/author.jpg" id="img-round" />
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h5><b>Adam</b> and <b>Kimberly</b> likes this</h5>
+                                        
+                                        <div class="col-md-8 col-sm-6 col-xs-6">
+                                            <h5 style="color: #738797;"><span style="color: #3A4752;"><b>Sammantha Williams</b></span> and <span style="color: #3A4752;"><b>2 others</b></span> likes this</h5>
                                         </div>
                                     </div>
                                     <!-- Like Widget Ends -->
@@ -312,25 +246,24 @@
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-md-5 col-sm-4 col-xs-6">
-                                            <img src="img/actlikeit.jpg" id="img-mainBooks" class="img-responsive" />
+                                            <img src="img/aloneon.jpg" id="img-mainBooks" class="img-responsive" />
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h4 id="book-title">Act Like It</h4>
-                                            <h5 id="book-author">By Lucy Parker</h5>
-                                            <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
+                                        <img src="img/dots.png" id="menu-icon" />
+                                        <div class="col-md-7 col-sm-6 col-xs-6 book-details">
+                                            <h4 id="book-title">Alone On The Wall</h4>
+                                            <h5 id="book-author">by David Roberts</h5>
+                                            <p><img src="img/star.png" id="star-reviews" /></p><p id="vote-count">&nbsp;&nbsp;1,987,765 voters</p>
                                             <h5 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</h5>
                                         </div>
                                     </div>
                                     <hr />
                                     <!-- Like Widget -->
                                     <div class="row">
-                                        <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <img src="img/author.jpg" id="img-round" />
-                                            <img src="img/author.jpg" id="img-round" />
+                                        <div class="col-md-1 col-sm-4 col-xs-6">
                                             <img src="img/author.jpg" id="img-round" />
                                         </div>
                                         <div class="col-md-8 col-sm-6 col-xs-6">
-                                            <h5><b>Sammantha Williams</b> and <b>2 others</b> likes this</h5>
+                                            <h5 style="color: #738797;"><span style="color: #3A4752;"><b>Kimberly Jones</b></span> likes this</h5>
                                         </div>
                                     </div>
                                     <!-- Like Widget Ends -->
@@ -340,6 +273,8 @@
                         </div>
                     </div>
                     <!-- Div-class-row #1 -->
+                    <br />
+                    <br />
                     <br />
                     <br />
 
@@ -354,12 +289,13 @@
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-md-5 col-sm-4 col-xs-6">
-                                            <img src="img/actlikeit.jpg" id="img-mainBooks" class="img-responsive" />
+                                            <img src="img/thepaintersdaughter.jpg" id="img-mainBooks" class="img-responsive" />
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h4 id="book-title">Act Like It</h4>
-                                            <h5 id="book-author">By Lucy Parker</h5>
-                                            <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
+                                        <img src="img/dots.png" id="menu-icon" />
+                                        <div class="col-md-7 col-sm-6 col-xs-6 book-details">
+                                            <h4 id="book-title">The Painters Daughter</h4>
+                                            <h5 id="book-author">by Julie Klassen</h5>
+                                            <p><img src="img/star.png" id="star-reviews" /></p><p id="vote-count">&nbsp;&nbsp;1,987,765 voters</p>
                                             <h5 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</h5>
                                         </div>
                                     </div>
@@ -373,7 +309,7 @@
                                                     </span>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h5><b>Adam</b> and <b>Kimberly</b> likes this</h5>
+                                            <h5 style="color: #738797;"><span style="color:#3A4752;"><b>Adam</b></span> and <span style="color:#3A4752;"><b>Kimberly</b></span> likes this</h5>
                                         </div>
                                     </div>
                                     <!-- Like Widget Ends -->
@@ -386,26 +322,28 @@
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-md-5 col-sm-4 col-xs-6">
-                                            <img src="img/actlikeit.jpg" id="img-mainBooks" class="img-responsive" />
+                                            <img src="img/darkmurder.jpg" id="img-mainBooks" class="img-responsive" />
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h4 id="book-title">Act Like It</h4>
-                                            <h5 id="book-author">By Lucy Parker</h5>
-                                            <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
+                                        <img src="img/dots.png" id="menu-icon" />
+                                        <div class="col-md-7 col-sm-6 col-xs-6 book-details">
+
+                                            <h4 id="book-title">Dark Murder</h4>
+                                            <h5 id="book-author">by Helen H</h5>
+                                            <p><img src="img/star.png" id="star-reviews" /></p><p id="vote-count">&nbsp;&nbsp;1,987,765 voters</p>
                                             <h5 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</h5>
                                         </div>
                                     </div>
                                     <hr />
                                     <!-- Like Widget -->
-                                    <div class="row">
-                                        <div class="col-md-3 col-sm-4 col-xs-6">
+                                   <div class="row">
+                                        <div class="col-md-4 col-sm-4 col-xs-6">
                                             <img src="img/author.jpg" id="img-round" />
-                                            <span>
-                                                        <img src="img/author.jpg" id="img-round" />
-                                                    </span>
+                                            <img src="img/author.jpg" id="img-round" />
+                                            <img src="img/author.jpg" id="img-round" />
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h5><b>Adam</b> and <b>Kimberly</b> likes this</h5>
+                                        
+                                        <div class="col-md-8 col-sm-6 col-xs-6">
+                                            <h5 style="color: #738797;"><span style="color: #3A4752;"><b>Sammantha Williams</b></span> and <span style="color: #3A4752;"><b>2 others</b></span> likes this</h5>
                                         </div>
                                     </div>
                                     <!-- Like Widget Ends -->
@@ -420,6 +358,8 @@
 
                     <br />
                     <br />
+                    <br />
+                    <br />
 
                     <div class="row">
                         <!-- Div class-row #3-->
@@ -430,26 +370,27 @@
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-md-5 col-sm-4 col-xs-6">
-                                            <img src="img/actlikeit.jpg" id="img-mainBooks" class="img-responsive" />
+                                            <img src="img/alexferguson.jpg" id="img-mainBooks" class="img-responsive" />
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h4 id="book-title">Act Like It</h4>
-                                            <h5 id="book-author">By Lucy Parker</h5>
-                                            <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
+                                        <img src="img/dots.png" id="menu-icon" />
+                                        <div class="col-md-7 col-sm-6 col-xs-6 book-details">
+                                            <h4 id="book-title">Alex Ferguson: My Auto...</h4>
+                                            <h5 id="book-author">by Alex Ferguson</h5>
+                                            <p><img src="img/star.png" id="star-reviews" /></p><p id="vote-count">&nbsp;&nbsp;1,987,765 voters</p>
                                             <h5 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</h5>
                                         </div>
                                     </div>
                                     <hr />
                                     <!-- Like Widget -->
                                     <div class="row">
-                                        <div class="col-md-3 col-sm-4 col-xs-6">
+                                        <div class="col-md-4 col-sm-4 col-xs-6">
                                             <img src="img/author.jpg" id="img-round" />
-                                            <span>
-                                                        <img src="img/author.jpg" id="img-round" />
-                                                    </span>
+                                            <img src="img/author.jpg" id="img-round" />
+                                            <img src="img/author.jpg" id="img-round" />
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h5><b>Adam</b> and <b>Kimberly</b> likes this</h5>
+                                        
+                                        <div class="col-md-8 col-sm-6 col-xs-6">
+                                             <h5 style="color: #738797;"><span style="color: #3A4752;"><b>Sammantha Williams</b></span> and <span style="color: #3A4752;"><b>2 others</b></span> likes this</h5>
                                         </div>
                                     </div>
                                     <!-- Like Widget Ends -->
@@ -462,26 +403,24 @@
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-md-5 col-sm-4 col-xs-6">
-                                            <img src="img/actlikeit.jpg" id="img-mainBooks" class="img-responsive" />
+                                            <img src="img/thedevilsplayground.jpg" id="img-mainBooks" class="img-responsive" />
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h4 id="book-title">Act Like It</h4>
-                                            <h5 id="book-author">By Lucy Parker</h5>
-                                            <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
+                                        <img src="img/dots.png" id="menu-icon" />
+                                        <div class="col-md-7 col-sm-6 col-xs-6 book-details">
+                                            <h4 id="book-title">The Devils Playground</h4>
+                                            <h5 id="book-author">by Eliza Freed</h5>
+                                            <p><img src="img/star.png" id="star-reviews" /></p><p id="vote-count">&nbsp;&nbsp;1,987,765 voters</p>
                                             <h5 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</h5>
                                         </div>
                                     </div>
                                     <hr />
                                     <!-- Like Widget -->
                                     <div class="row">
-                                        <div class="col-md-3 col-sm-4 col-xs-6">
+                                        <div class="col-md-1 col-sm-4 col-xs-6">
                                             <img src="img/author.jpg" id="img-round" />
-                                            <span>
-                                                        <img src="img/author.jpg" id="img-round" />
-                                                    </span>
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h5><b>Adam</b> and <b>Kimberly</b> likes this</h5>
+                                        <div class="col-md-8 col-sm-6 col-xs-6">
+                                            <h5 style="color: #738097"><span style="color: #3A4752;"><b>Kimberly Jones</b></span> likes this</h5>
                                         </div>
                                     </div>
                                     <!-- Like Widget Ends -->
@@ -496,6 +435,8 @@
 
                     <br />
                     <br />
+                    <br />
+                    <br />
 
                     <div class="row">
                         <!-- Div class-row #4-->
@@ -506,12 +447,13 @@
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-md-5 col-sm-4 col-xs-6">
-                                            <img src="img/actlikeit.jpg" id="img-mainBooks" class="img-responsive" />
+                                            <img src="img/inconceivable.jpg" id="img-mainBooks" class="img-responsive" />
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h4 id="book-title">Act Like It</h4>
-                                            <h5 id="book-author">By Lucy Parker</h5>
-                                            <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
+                                        <img src="img/dots.png" id="menu-icon" />
+                                        <div class="col-md-7 col-sm-6 col-xs-6 book-details">
+                                            <h4 id="book-title">INCONCEIVABLE</h4>
+                                            <h5 id="book-author">by Tegan Wren</h5>
+                                           <p><img src="img/star.png" id="star-reviews" /></p><p id="vote-count">&nbsp;&nbsp;1,987,765 voters</p>
                                             <h5 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</h5>
                                         </div>
                                     </div>
@@ -525,7 +467,7 @@
                                                     </span>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h5><b>Adam</b> and <b>Kimberly</b> likes this</h5>
+                                            <h5 style="color: #738797;"><span style="color:#3A4752;"><b>Adam</b></span> and <span style="color:#3A4752;"><b>Kimberly</b></span> likes this</h5>
                                         </div>
                                     </div>
                                     <!-- Like Widget Ends -->
@@ -538,26 +480,27 @@
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-md-5 col-sm-4 col-xs-6">
-                                            <img src="img/actlikeit.jpg" id="img-mainBooks" class="img-responsive" />
+                                            <img src="img/fourdays.jpg" id="img-mainBooks" class="img-responsive" />
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h4 id="book-title">Act Like It</h4>
-                                            <h5 id="book-author">By Lucy Parker</h5>
-                                            <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
+                                        <img src="img/dots.png" id="menu-icon" />
+                                        <div class="col-md-7 col-sm-6 col-xs-6 book-details">
+                                            <h4 id="book-title">FOUR DAYS</h4>
+                                            <h5 id="book-author">by Iain Ryan</h5>
+                                            <p><img src="img/star.png" id="star-reviews" /></p><p id="vote-count">&nbsp;&nbsp;1,987,765 voters</p>
                                             <h5 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</h5>
                                         </div>
                                     </div>
                                     <hr />
                                     <!-- Like Widget -->
                                     <div class="row">
-                                        <div class="col-md-3 col-sm-4 col-xs-6">
+                                        <div class="col-md-4 col-sm-4 col-xs-6">
                                             <img src="img/author.jpg" id="img-round" />
-                                            <span>
-                                                        <img src="img/author.jpg" id="img-round" />
-                                                    </span>
+                                            <img src="img/author.jpg" id="img-round" />
+                                            <img src="img/author.jpg" id="img-round" />
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <h5><b>Adam</b> and <b>Kimberly</b> likes this</h5>
+                                        
+                                        <div class="col-md-8 col-sm-6 col-xs-6">
+                                             <h5 style="color: #738797;"><span style="color: #3A4752;"><b>Sammantha Williams</b></span> and <span style="color: #3A4752;"><b>2 others</b></span> likes this</h5>
                                         </div>
                                     </div>
                                     <!-- Like Widget Ends -->
@@ -572,6 +515,8 @@
 
                     <br />
                     <br />
+                    <br />
+                    <br />
                 </div>
                 <!-- Container-fluid-wrapper #main -->
             </div>
@@ -583,6 +528,27 @@
 
     </div>
     </div>
+    <script src="slick-master/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        var theContainer = $('#theContainer');
+
+theContainer.slick({
+    autoplay: false,
+    infinite: true,
+    centerMode:true,
+    centerPadding:'400px',
+    });
+
+var theDiv = $('<div class="theSlide"><div id="carousel-div1" style="background: #D79ABC;width: 100%;height: 320px;color: #fff;"><div class="row"><div class="col-md-5 col-xs-4 col-sm-4"><img src="img/bigmagic.jpg" class="carousel-image img-responsive" style="margin-top: 55px;margin-left: 15%;box-shadow: 3px 0px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);"></div><div class="text-placement" style="margin-top: 45px;"><div class="col-md-1"></div><div class="col-md-6 col-xs-8 col-sm-6"><div class="container-fluid"><h4 style="color: #fff;">BIG MAGIC: Creative Liv...</h4><p id="book-author" style="color: #F9EDF3;">by Elizabeth Gilbert</p><p><img src="img/stars1.png" style="width:90px;height:22px;float:left;" /></p><p style="color: #F9EDF3;">&nbsp;&nbsp;1,987,765 voters</p><h5 id="book-summary" style="color: #F9EDF3;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5><input type="button" class="btn-custom" value="See The Book" style="color:#8A466C;"><a href="#"></a> </input></div></div></div> </div></div><div></div></div>');theContainer.slick('slickAdd', theDiv);
+
+var theDiv = $('<div class="theSlide"><div id="carousel-div2" style="background: #88CEDC;width: 100%;height: 320px;color: #fff;"><div class="row"><div class="col-md-5 col-xs-4 col-sm-4"><img src="img/tenthousand.jpg" class="carousel-image img-responsive" style="margin-top: 55px;margin-left: 15%;box-shadow: 3px 0px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);"></div><div class="text-placement" style="margin-top: 45px;"><div class="col-md-1"></div><div class="col-md-6 col-xs-8 col-sm-6"><div class="container-fluid"><h4 style="color: #fff;">Ten Thousand Skies...</h4><h5 id="book-author" style="color: #F9EDF3;">by Claudia Gray</h5><p><img src="img/stars3.png" style="width:90px;height:22px;float:left;" /></p><p style="color: #F9EDF3;">&nbsp;&nbsp;1,987,765 voters</p><h5 id="book-summary" style="color: #F9EDF3; margin-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5><input type="button" class="btn-custom" value="See The Book" style="color: #458997;"><a href="#"></a>  </input> </div></div></div> </div></div><div></div></div>');
+theContainer.slick('slickAdd', theDiv);
+
+var theDiv = $('<div class="theSlide"><div id="carousel-div2" style="background: #F8A6A8;width: 100%;height: 320px;color: #fff;"><div class="row"><div class="col-md-5 col-xs-4 col-sm-4"><img src="img/bigmagic.jpg" class="carousel-image img-responsive" style="margin-top: 55px;margin-left: 15%;box-shadow: 3px 0px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);"></div><div class="text-placement" style="margin-top: 45px;"><div class="col-md-1"></div><div class="col-md-6 col-xs-8 col-sm-6"><div class="container-fluid"><h4 style="color: #fff;">Attack of The Planet</h4><h5 id="book-author" style="color: #F9EDF3;">by Andrea Jordan</h5><p><img src="img/stars2.png" style="width:90px;height:22px;float: left;" /><p style="color: #F9EDF3;">&nbsp;&nbsp;1,987,765 voters</p><h5 id="book-summary" style="color: #F9EDF3;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5><input type="button" class="btn-custom" value="See The Book" style="color: #C33F42;"><a href="#"></a>  </input> </div></div></div> </div></div><div></div></div>');
+theContainer.slick('slickAdd', theDiv);
+
+
+</script>
 
 </body>
 

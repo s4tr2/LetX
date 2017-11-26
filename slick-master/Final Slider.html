@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slick Playground</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+    .slider {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .slick-slide {
+      margin-left: 1px;
+      margin-right: 1px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: #fff;
+    }
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: 1; /*IN case it doesn't work, change it to 0.2*/
+    }
+    
+    .slick-active {
+      opacity: 1;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="center slider">
+    <div id="theContainer">
+   <!--   <div id="carousel-div1">
+                            <div class="row">
+                                  <div class="col-md-4 col-xs-4 col-sm-4">
+                                      <img src="bigmagic.jpg" class="carousel-image img-responsive">
+                                  </div>
+                                  <div class="text-placement">
+                                    <div class="col-md-2">
+                                  </div>
+                                    <div class="col-md-5 col-xs-8 col-sm-6">
+                                        <div class="container-fluid">
+                                            <h4 id="book-title">BIG MAGIC: Creative Liv...</h4>
+                                            <h5 id="book-author">By Elizabeth Gilbert</h5>
+                                            <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
+                                            <h5 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                            <input type="button" class="btn-custom" value="See the book">
+                                            <a href="#"></a>
+                                            </input>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> 
+    </div>
+
+    <div id="theContainer">
+         <div id="carousel-div2">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-4 col-sm-4">
+                                    <img src="bigmagic.jpg" class="carousel-image img-responsive">
+                                </div>
+                                <div class="col-md-2">
+                                </div>
+                                <div class="col-md-5 col-xs-8 col-sm-6">
+                                    <div class="container-fluid">
+                                        <h4 id="book-title">Act Like It</h4>
+                                        <h5 id="book-author">By Lucy Parker</h5>
+                                        <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
+                                        <h5 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                        <input type="button" class="btn-custom" value="See the book">
+                                        <a href="#"></a>
+                                        </input>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    </div> -->
+ <!--
+    <div>
+     
+            <div id="carousel-div3">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-4 col-sm-4">
+                                    <img src="bigmagic.jpg" class="carousel-image img-responsive">
+                                </div>
+                                <div class="col-md-2">
+                                </div>
+                                <div class="col-md-5 col-xs-8 col-sm-6">
+                                    <div class="container-fluid">
+                                        <h4 id="book-title">Act Like It</h4>
+                                        <h5 id="book-author">By Lucy Parker</h5>
+                                        <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
+                                        <h5 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                        <input type="button" class="btn-custom" value="See the book">
+                                        <a href="#"></a>
+                                        </input>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>        
+    </div>
+
+    <div>
+      
+            <div id="carousel-div3">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-4 col-sm-4">
+                                    <img src="bigmagic.jpg" class="carousel-image img-responsive">
+                                </div>
+                                <div class="col-md-2">
+                                </div>
+                                <div class="col-md-5 col-xs-8 col-sm-6">
+                                    <div class="container-fluid">
+                                        <h4 id="book-title">Act Like It</h4>
+                                        <h5 id="book-author">By Lucy Parker</h5>
+                                        <img src="img/star.png" id="star-reviews" /><span> 1,987,765 voters</span>
+                                        <h5 id="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                        <input type="button" class="btn-custom" value="See the book">
+                                        <a href="#"></a>
+                                        </input>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>       
+    </div>
+    --> 
+  </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+  /*  $(document).on('ready', function() {
+      $(".center").slick({
+        dots: false,
+        infinite: true,
+        centerMode: true,
+        centerPadding: '300px',
+        slidesToShow: 1,
+        autoplay: true,
+        slidesToScroll: 3
+      });
+    });*/
+
+    /*Custom */
+var theContainer = $('#theContainer');
+
+theContainer.slick({
+    autoplay: false,
+    infinite: true,
+    centerMode:true,
+    centerPadding:'400px',
+    });
+
+var theDiv = $('<div class="theSlide"><div id="carousel-div1" style="background: #D79ABC;width: 100%;height: 320px;color: #fff;"><div class="row"><div class="col-md-5 col-xs-4 col-sm-4"><img src="bigmagic.jpg" class="carousel-image img-responsive" style="margin-top: 55px;margin-left: 15%;box-shadow: 3px 0px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);"></div><div class="text-placement" style="margin-top: 45px;"><div class="col-md-1"></div><div class="col-md-6 col-xs-8 col-sm-6"><div class="container-fluid"><h4 id="book-title">BIG MAGIC: Creative Liv...</h4><p id="book-author" style="color: #F9EDF3;">by Elizabeth Gilbert</p><p><img src="stars1.png" style="width:90px;height:22px;float:left;" /></p><p style="color: #F9EDF3;">&nbsp;&nbsp;1,987,765 voters</p><h5 id="book-summary" style="color: #F9EDF3;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5><input type="button" class="btn-custom" value="See the book" style="color: #D79ABC;"><a href="#"></a> </input></div></div></div> </div></div><div></div></div>');theContainer.slick('slickAdd', theDiv);
+
+var theDiv = $('<div class="theSlide"><div id="carousel-div2" style="background: #88CEDC;width: 100%;height: 320px;color: #fff;"><div class="row"><div class="col-md-5 col-xs-4 col-sm-4"><img src="bigmagic.jpg" class="carousel-image img-responsive" style="margin-top: 55px;margin-left: 15%;box-shadow: 3px 0px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);"></div><div class="text-placement" style="margin-top: 45px;"><div class="col-md-1"></div><div class="col-md-6 col-xs-8 col-sm-6"><div class="container-fluid"><h4 id="book-title">BIG MAGIC: Creative Liv...</h4><h5 id="book-author" style="color: #F9EDF3;">by Claudia Gray</h5><p><img src="stars3.png" style="width:90px;height:22px;float:left;" /></p><p style="color: #F9EDF3;">&nbsp;&nbsp;1,987,765 voters</p><h5 id="book-summary" style="color: #F9EDF3;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5><input type="button" class="btn-custom" value="See the book" style="color: #88CEDC;"><a href="#"></a>  </input> </div></div></div> </div></div><div></div></div>');
+theContainer.slick('slickAdd', theDiv);
+
+var theDiv = $('<div class="theSlide"><div id="carousel-div2" style="background: #F8A6A8;width: 100%;height: 320px;color: #fff;"><div class="row"><div class="col-md-5 col-xs-4 col-sm-4"><img src="bigmagic.jpg" class="carousel-image img-responsive" style="margin-top: 55px;margin-left: 15%;box-shadow: 3px 0px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);"></div><div class="text-placement" style="margin-top: 45px;"><div class="col-md-1"></div><div class="col-md-6 col-xs-8 col-sm-6"><div class="container-fluid"><h4 id="book-title">Attack of The Planet</h4><h5 id="book-author" style="color: #F9EDF3;">by Andrea Jordan</h5><p><img src="stars2.png" style="width:90px;height:22px;float: left;" /><p style="color: #F9EDF3;">&nbsp;&nbsp;1,987,765 voters</p><h5 id="book-summary" style="color: #F9EDF3;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5><input type="button" class="btn-custom" value="See the book" style="color: #F8A6A8;"><a href="#"></a>  </input> </div></div></div> </div></div><div></div></div>');
+theContainer.slick('slickAdd', theDiv);
+
+
+</script>
+
+</body>
+</html>
